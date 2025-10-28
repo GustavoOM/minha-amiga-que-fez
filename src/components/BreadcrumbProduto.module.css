@@ -1,0 +1,40 @@
+#contraste.breadcrumb{
+    color: var(--white);
+}
+
+#contraste.breadcrumb a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.breadcrumb{
+    margin-left: 60px;
+    padding-top: 143px;
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.breadcrumb a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo{
+    color: var(--purple-800);
+    font-size: 1.5rem;
+    max-width: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.home{
+    cursor: pointer;
+}
+
+@media (max-width: 760px){
+    .breadcrumb{
+        padding-top: 90px;
+    }
+}

@@ -1,0 +1,72 @@
+{
+	"filtro": "",
+	"carrosseis":[
+		{
+			"imagem":"https://imgur.com/L1UMsAS.png",
+			"alt": "Bolsas"
+		},
+		{
+			"imagem":"https://imgur.com/2GiEFgK.png",
+			"alt": "Porta Cartão"
+		},
+		{
+			"imagem":"https://imgur.com/5Dwz2Tb.png",
+			"alt": "Chaveiros"
+		},
+		{
+			"imagem":"https://imgur.com/VkVvlRB.png",
+			"alt": "Brincos"
+		}
+	],
+	"produto":[
+		{
+			"titulo":"Bolsa de pedras com lozangulos",
+			"valor":21.50,
+			"imagemPrincipal":"https://imgur.com/buzALJv.png",
+			"categoria":"Bolsas",
+			"isPromocao": true,
+			"idProduto": 0,
+			"qtdEmEstoque": 10,
+			"qtdComprados": 5,
+			"qtdDeEstrelas": 5,
+			"qtdAvaliacoes": 36,
+			"descricaoDetalhadaMenor":"Bolsa preta com losangos de pedras coloridas.",
+			"imagensAlternativas": [
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png"
+			],
+			"descricaoImg": "Essa foto contém uma bolsa de pedras com losangos",
+			"descricaoDetalhadaMaior": "Bolsa preta com losangos de pedras coloridas. Bolsa feita artesanalmente com muito carinho."
+		},
+		{
+			"titulo":"Bolsa Terê (infantil)",
+			"valor":35.90,
+			"imagemPrincipal":"https://imgur.com/l1d5IpL.png",
+			"categoria":"Bolsas",
+			"isPromocao": false,
+			"idProduto": 1,
+			"qtdEmEstoque": 10,
+			"qtdComprados": 5,
+			"qtdDeEstrelas": 5,
+			"qtdAvaliacoes": 36,
+			"descricaoDetalhadaMenor":"Bolsa infantil com estampa de terê.",
+			"imagensAlternativas": [
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png"
+			],
+			"descricaoImg": "Essa foto contém uma bolsa terê (infantil)",
+			"descricaoDetalhadaMaior": "Bolsa infantil com estampa de terê. Feita artesanalmente com muito carinho."
+		}
+	]
+}

@@ -1,0 +1,85 @@
+.containerPagamento{
+    display: flex;
+    flex-direction: column;
+    width: 644px;
+}
+
+
+.pagamento{
+    width: 88.23%;
+    align-self: flex-start;
+}
+
+.pagamento img{
+    background-color: var(--white);
+    height: 64px;
+    width: 16.3%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 10px;
+
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    border-radius: 15.875px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    min-width: 64px;
+
+}
+
+.containerPagamento h1{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 43px;
+    color: var(--purple-800);
+    margin-bottom: 43px ;
+}
+
+.pagamento input{
+    width: 0;
+    opacity: 0;
+}
+
+
+
+.pagamento input:hover + img{
+    border: 3px solid var(--purple-500);
+}
+
+.pagamento input:checked + img{
+    border: 3px solid var(--purple-500);
+    background-color: #e0aaff1a; /* roxo 100 com opacidade baixa */
+}
+
+#contraste img {
+    background-color: var(--black);
+}
+
+
+@media (max-width: 1250px){
+    .containerPagamento{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }   
+
+    .pagamento{
+        width: 100%;
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 600px){
+    .containerPagamento{
+        display: flex;
+        flex-direction: column;
+        width: 252px;
+    }
+    
+    .pagamento{
+        width: 100%;
+        align-self: flex-start;
+    }
+}

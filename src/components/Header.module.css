@@ -1,0 +1,312 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    transition: top 0.3s ease-in-out;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+}
+
+.busca{
+    cursor: pointer;
+}
+
+#contraste.topHeader{
+    background-color: black;
+}
+
+.topHeader{
+    height: 108px;
+    width: 100%;
+    font-size: 1.5rem;
+    background: var(--purple-500);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.25rem 2rem;
+    align-items: center;
+}
+
+
+.logo{
+    padding: 0 1rem;
+    height: auto;
+    width: 26%;
+    min-width: 260px;
+    cursor: pointer;
+}
+
+.funcoes{
+    display: flex;
+}
+
+.pesquisa{
+    display: flex;
+    height: 60px;
+    margin: 0 2rem 0 0;
+    align-items: center;
+}
+
+#contraste.input{
+    background: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    
+}
+
+#contraste.input::placeholder {
+    color: var(--purple-c);
+  }
+
+
+.pesquisa input{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    border-radius: 100px;
+    width: 600px;
+    height: 60px;
+    font-size: 1.125rem;
+    color: var(--purple-700);
+    padding: 16px;
+    padding-right: 70px;
+}
+
+.pesquisa img{
+    height: 24px;
+    margin-left: -50px;
+    margin-right: 2rem;
+}
+
+.icones{
+    display: flex;
+    margin-right: 0.5rem;
+    align-items: center;
+}
+
+.carrinho{
+    display: flex;
+    cursor: pointer;
+}
+
+.carrinhoImg{
+    height: 32px;
+}
+
+.perfilImg{
+    height: 32px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.coracaoImg{
+    height: 32px;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+
+.burger {
+    display: none;
+}
+
+.navButtons {
+    display: flex;
+}
+
+.quantidade{
+    width: 26px;
+    height: 26px;
+    background-color: var(--purple-800);
+    border-radius: 50%;
+    color: var(--white);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.875rem;
+    margin-left: -10px;
+    margin-top: -9px;
+}
+
+#contraste.quantidade{
+    background-color: black;
+    border: 1px solid var(--purple-c);
+    color: white;
+}
+
+@media (max-width: 1140px){
+    .pesquisa{
+        display: none;
+    }
+}
+
+.nomeUsuario {
+    color: var(--white);
+    margin-left: 0.5rem;
+    max-width: 15ch;
+    text-overflow: hidden;
+    overflow: hidden;
+
+
+}
+
+.burgerContainer{
+    display: none;
+}
+
+
+
+.dropMenu{
+    display: none;
+}
+
+
+
+#contraste{
+    background: black;
+}
+
+#contraste .botaoPromo{
+    background: black;
+}
+
+#contraste .dropMenu{
+    background: black;
+}
+
+#contraste button{
+    background: black;
+    color: var(--purple-c);
+    border-top: 1px solid var(--white);
+}
+
+#contraste button:hover{
+    background: black;
+    color: var(--purple-c);
+}
+
+#contraste .botaoPromo {
+    background-color: black;
+}
+
+#contraste .botaoPromo:hover {
+    color: var(--purple-c);
+}
+
+#contraste .botaoRegular:hover{
+    color: var(--purple-c);
+}
+
+
+@media (max-width: 760px){
+
+    .topHeader{
+        height: 55px;
+    }
+
+    .logo{
+        padding: 0 1rem;
+        height: auto;
+        width: 20%;
+        min-width: 200px;
+        cursor: pointer;
+    }
+
+    .navButtons{
+        display: none;
+    }
+
+    .burgerContainer{
+        display: flex;
+    }
+
+    .topHeader{
+        padding: 1rem 0.5rem;
+    }
+
+    .quantidade{
+        width: 18px;
+        height: 18px;
+        background-color: var(--purple-800);
+        border-radius: 50%;
+        color: var(--white);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 0.625rem;
+        margin-left: -8px;
+        margin-top: -7px;
+    }
+
+    #contraste.quantidade{
+        background-color: black;
+        border: 1px solid var(--purple-c);
+        color: white;
+    }
+
+
+
+    .dropMenu{
+        /*height: 32px;*/
+        left: 0;
+        width: 100% + 50px;
+        font-size: 1.5rem;
+        background: var(--purple-500);
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 55px;
+        flex-flow: column nowrap;
+
+    }
+
+    .dropMenu button {
+        padding: 10px 0;
+        transition: 0.25s;
+        border: none;
+        border-radius: 0;
+        color: var(--white);
+        background-color: transparent;
+        /*position: relative;*/
+        width: 100vw;
+        height: 100%;
+        cursor: pointer;
+    }
+
+    .dropMenu button:hover {
+        background-color: var(--white);
+    }
+
+    .dropMenu .botaoPromo {
+        background-color: var(--purple-800);
+    }
+
+    .dropMenu .botaoPromo:hover {
+        color: var(--purple-800);
+    }
+
+    .dropMenu .botaoRegular:hover{
+        color: var(--purple-500);
+    }
+
+
+    .carrinhoImg{
+        height: 26px;
+    }
+    
+    .perfilImg{
+        height: 26px;
+        margin-left: 6px;
+        cursor: pointer;
+    }
+    
+    .coracaoImg{
+        height: 24px;
+        margin-left: 10px;
+        
+    }
+}
+

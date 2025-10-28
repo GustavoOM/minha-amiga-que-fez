@@ -1,0 +1,481 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    padding: 0 60px;
+    gap: 20px;
+}
+
+.left{
+    margin-top: 50px;
+    margin-bottom: 90px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.right{
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+h1.titulo{
+    font-size: 2.25rem;
+    color: var(--purple-800);
+    font-weight: normal;
+    margin-bottom: 29px;
+}
+
+h2.titulo{
+    text-align: center;
+    font-size: 1.875rem;
+    color: var(--purple-800);
+    font-weight: normal;
+    margin-bottom: 29px;
+}
+
+.scroll::-webkit-scrollbar{
+    display: none;
+}
+
+.scroll{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    gap: 21px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    margin-bottom: 21px;
+    height: 100%;
+}
+
+.boxCardsCompras{
+    
+    width: 530px;
+    height: 720px;
+    background-color: rgb(224, 170, 255, 0.6);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: first baseline;
+    flex-direction: column;
+    
+}
+
+
+
+.compreEGanheTexto p{
+    width: 400px;
+    font-size: 1.625rem;
+}
+
+.compreEGanhe {
+    display: flex;
+}
+
+.pagamentoLabel{
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 43px;
+    color: var(--purple-800);
+}
+
+.button{
+    background-color: var(--purple-600);
+    border-radius: 8px;
+    width: 530px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.2s;
+    /* margin-bottom: 52px; */
+}
+
+.buttonApagado{
+    background-color: rgb(60,09,108,0.5);
+    border-radius: 8px;
+    width: 530px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.2s;
+    cursor: not-allowed;
+    /* margin-bottom: 52px; */
+}
+
+
+.button:hover{
+    background-color: var(--purple-500);
+}
+
+.cartao{
+    margin-left: 16px;
+}
+
+.totalCompra{
+    text-align: right;
+    margin-right: 16px;
+}
+
+
+.totalCompraLabel{
+    margin-top: 40px;
+    margin-bottom: 16px;
+    font-size: 1.625rem;
+}
+
+.valorItensBox{
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.valorItensLabel{
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #494949;
+}
+
+.valorItens{
+    font-size: 1.75rem;
+    color:  var(--purple-800);
+    
+}
+
+.valorFreteBox{
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valorFreteLabel{
+    font-size: 1rem;
+    color: #494949;
+}
+
+
+.valorFrete{
+    font-size: 1.75rem;
+    color:  var(--purple-800);
+}
+
+.valorTotalBox{
+    display: flex;
+    flex-direction: row;
+    min-width: 300px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.valorTotalLabel{
+    font-size: 20px;
+    color: #494949;
+
+}
+
+.valorTotal{
+    font-size: 2.25rem;
+    color:  var(--purple-800);
+}
+
+.buttonsCards{
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonRemove{
+    background-color: var(--purple-700);
+    border-radius: 8px;
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.2s;
+    padding: 15px 50px;
+    cursor: pointer;
+}
+
+.buttonRemoveApagado{
+    background-color: rgb(36, 0, 70, 0.5);
+    border-radius: 8px;
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.2s;
+    padding: 15px 50px;
+    cursor: not-allowed;
+}
+
+.buttonRemove:hover{
+    background-color: var(--purple-600);
+}
+
+.buttonContinue{
+    background-color: var(--purple-600);
+    border-radius: 8px;
+    width: 48%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.2s;
+}
+
+.buttonContinue:hover{
+    background-color: var(--purple-500);
+}
+
+.background {
+    background: var(--black);
+}
+
+#contraste {
+    background: var(--black);
+    color: var(--white);
+}
+
+#contraste .titulo{
+    color: var(--white);
+}
+
+#contraste .pagamentoLabel{
+    color: var(--white);
+}
+
+#contraste .totalCompraLabel{
+    color: var(--white);
+}
+
+#contraste .valorItensLabel{
+    color: var(--white);
+}
+
+#contraste .valorFreteLabel{
+    color: var(--white);
+}
+
+#contraste .valorTotalLabel{
+    color: var(--white);
+}
+
+#contraste .valorItens{
+    color: var(--white);
+}
+
+#contraste .valorFrete{
+    color: var(--white);
+}
+
+#contraste .valorTotal{
+    color: var(--white);
+}
+
+#contraste .boxCardsCompras{
+    background: var(--black);
+    border: 1px solid var(--white);
+}
+
+#contraste .buttonContinue{
+    background-color: black;
+    color: var(--white);
+    border: 2px solid var(--purple-c);
+}
+
+#contraste .buttonContinue:hover{
+    background-color: black;
+}
+
+#contraste .buttonRemove{
+    background-color: black;
+    color: var(--white);
+    border: 2px solid var(--purple-c);
+}
+
+#contraste .buttonRemove:hover{
+    background-color: black;
+}
+
+#contraste .button{
+    background-color: black;
+    color: var(--white);
+    border: 2px solid var(--purple-c);
+}
+
+#contraste .button:hover{
+    background-color: black;
+}
+
+@media (max-width: 1575px){
+    .button{
+        width: 498px;
+        margin-right: 32px;
+    }
+
+    .totalCompra{
+        text-align: right;
+        margin-right: 32px;
+    }
+}
+
+@media (max-width: 1250px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left{
+        margin-left: 0;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        align-items: center;
+        width: min-content;
+    }
+
+    .right{
+        margin-right: 0;
+        align-items: center;
+    }
+
+    h1.titulo{
+        text-align: center;
+    }
+
+    h2.titulo{
+        font-size: 40px;
+        color: var(--purple-800);
+        font-weight: normal;
+        margin-bottom: 29px;
+        width: 400px;
+    }
+
+    .compreEGanhe {
+        justify-content: space-between;
+    }
+
+    .containerPagamento{
+        width: 1111px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        max-width: auto;
+    }
+
+    .pagamentoLabel{
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px){
+    .boxCardsCompras{
+        width: 300px;
+        height: 720px;
+        background-color: rgb(224, 170, 255, 0.6);;
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        justify-content: first baseline;
+        flex-direction: column;
+        gap: 21px;
+    }
+
+    .button{
+        width: 300px;
+        height: 72px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: var(--white);
+        transition: 0.2s;
+    }
+
+    .buttonApagado{
+        width: 300px;
+    }
+    
+    .button:hover{
+        background-color: var(--purple-500);
+    }
+    
+    .cartao{
+        margin-left: 16px;
+    }
+
+    .buttonRemove{
+        font-size: 12px;
+    }
+    
+    .buttonContinue{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 650px){
+    h2.titulo{
+        font-size: 40px;
+        width: 400px;
+    }
+
+    .esoteraCoins{
+        display: none;
+    }
+
+    .compreEGanhe {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button{
+        margin-bottom: 100px;
+    }
+}

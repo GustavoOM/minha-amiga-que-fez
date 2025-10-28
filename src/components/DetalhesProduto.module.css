@@ -1,0 +1,57 @@
+#contraste.detalhesProduto{
+    background-color: black;
+    color: var(--white);
+}
+
+.detalhesProduto{
+    padding: 0 60px;
+}
+.paragrafoDetalhesAberto{
+    font-size: 1.563rem;
+
+}
+
+.paragrafoDetalhesFechado{
+    font-size: 1.563rem;
+    
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+
+}
+
+.tituloDetalhes{
+    padding: 40px 0 20px 0;
+}
+
+.caixaBotao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.botao{
+    background-color: var(--purple-300);
+    border: 0;
+    font-size: 1.563rem;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin: 30px 0;
+}
+
+#contraste.botao{
+    background-color: transparent;
+    border: 2px solid var(--purple-c);
+}
+
+@media (max-width: 600px){
+    .botao{
+        margin-bottom: 60px;
+    }
+}

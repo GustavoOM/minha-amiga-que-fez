@@ -1,0 +1,159 @@
+.botoes{
+    height: 34px;
+    width: 100%;
+    font-size: 1.5rem;
+    background: var(--purple-500);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 0;
+    margin-top: -2px;
+}
+
+#contraste.botoes{
+    background-color: black;
+}
+
+#contraste:hover{
+    background-color: black;
+}
+
+.botoes #contraste.botaoPromo {
+    background-color: black;
+}
+
+.botoes #contraste.botaoPromoSelecionado {
+    background-color: black;
+    color: var(--purple-c);
+}
+
+.botoes #contraste.botaoPromo:after {
+    content: '';
+    height: 60%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    background-color: var(--white); 
+}
+
+.botoes #contraste.botaoPromoSelecionado:after {
+    content: '';
+    height: 60%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    background-color: var(--white); 
+}
+
+.botoes #contraste.selecionado {
+    color: var(--purple-c);
+}
+
+
+.botoes button {
+    transition: 0.25s;
+    border: none;
+    border-radius: 4px 4px 0 0;
+    color: var(--white);
+    background-color: transparent;
+    position: relative;
+    min-width: 120px;
+    padding: 0 10px;
+    height: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.botoes button:hover {
+    background-color: var(--white);
+}
+
+
+.botoes .selecionado {
+    border-width: 0 0 4px 0;
+    border-color: var(--white);
+    border-style: solid;
+    padding-bottom: 8px;
+    width: 160px;
+}
+
+.botoes .selecionado:after {
+    content: '';
+    height: 60%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    background-color: var(--white); 
+}
+
+.botoes .botaoPromoSelecionado {
+    background-color: var(--purple-800);
+    border-width: 0 0 4px 0;
+    border-color: var(--white);
+    border-style: solid;
+    padding-bottom: 8px;
+    width: 160px;
+}
+
+
+.botoes .botaoPromo {
+    background-color: var(--purple-800);
+}
+
+.botoes .botaoPromo:hover {
+    color: var(--purple-800);
+} 
+
+
+.botoes .botaoRegular:after{
+    content: '';
+    height: 60%;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    background-color: var(--white); 
+}
+
+.botoes .botaoRegular:hover{
+    color: var(--purple-500);
+}
+
+.botoes .selecionado:hover {
+    color: var(--purple-500);
+}
+
+.botoes .botaoPromoSelecionado:hover {
+    color: var(--purple-800);
+}
+
+#contraste .botaoRegular:hover{
+    color: var(--white); 
+}
+
+#contraste .botaoPromoSelecionado:hover {
+    color: var(--purple-c);
+}
+
+/*@media(max-width: 1200px){
+    .botoes{
+        display: none;
+        justify-content: start;
+        position: top;
+        flex-flow: column nowrap;
+        height: 100vh;
+    }
+
+    .botaoRegular:after{
+        display: none;
+    }
+
+    button {
+        padding: 4px 0;
+        border-radius: 0;
+        width: 100vw;
+    }
+}*/
