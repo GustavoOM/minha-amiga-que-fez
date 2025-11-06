@@ -11,7 +11,7 @@
 
 .modalHeader {
     padding: 15px 0;
-    color: var(--purple-800);
+    color: var(--green-800);
 }
 
 .button{
@@ -19,7 +19,7 @@
     margin-right: 16px;
     margin-bottom: 16px;
     display: inline-block;
-    background-color: var(--purple-600);
+    background-color: var(--green-600);
     border-radius: 4px;
     width: 100%;
     padding: 0.75em;
@@ -37,7 +37,7 @@
 }
 
 .button:hover{
-    background-color: var(--purple-500);
+    background-color: var(--green-500);
 }
 
 .divider {
@@ -126,5 +126,5 @@
 #contraste .button{
     background-color: black;
     color: var(--white);
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }

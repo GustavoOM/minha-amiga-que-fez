@@ -2,8 +2,8 @@
     height: 228px;
     width: 100%;
     font-size: 0.875rem;
-    color: var(--purple-100);
-    background: var(--purple-500);
+    color: var(--white);
+    background: var(--green-500);
     position:absolute;
     bottom:0;
     margin-top: 10px;
@@ -43,7 +43,7 @@
 }
 
 .informacoes a{
-    color: var(--purple-100) ;
+    color: var(--white) ;
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@
 }
 
 #contraste.links{
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 .container{

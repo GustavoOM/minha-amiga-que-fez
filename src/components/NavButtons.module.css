@@ -2,7 +2,7 @@
     height: 34px;
     width: 100%;
     font-size: 1.5rem;
-    background: var(--purple-500);
+    background: var(--green-500);
     display: flex;
     justify-content: start;
     align-items: center;
@@ -24,7 +24,7 @@
 
 .botoes #contraste.botaoPromoSelecionado {
     background-color: black;
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 .botoes #contraste.botaoPromo:after {
@@ -48,7 +48,7 @@
 }
 
 .botoes #contraste.selecionado {
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 
@@ -90,7 +90,7 @@
 }
 
 .botoes .botaoPromoSelecionado {
-    background-color: var(--purple-800);
+    background-color: var(--green-800);
     border-width: 0 0 4px 0;
     border-color: var(--white);
     border-style: solid;
@@ -100,11 +100,11 @@
 
 
 .botoes .botaoPromo {
-    background-color: var(--purple-800);
+    background-color: var(--green-800);
 }
 
 .botoes .botaoPromo:hover {
-    color: var(--purple-800);
+    color: var(--green-800);
 } 
 
 
@@ -119,15 +119,15 @@
 }
 
 .botoes .botaoRegular:hover{
-    color: var(--purple-500);
+    color: var(--green-500);
 }
 
 .botoes .selecionado:hover {
-    color: var(--purple-500);
+    color: var(--green-500);
 }
 
 .botoes .botaoPromoSelecionado:hover {
-    color: var(--purple-800);
+    color: var(--green-800);
 }
 
 #contraste .botaoRegular:hover{
@@ -135,7 +135,7 @@
 }
 
 #contraste .botaoPromoSelecionado:hover {
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 /*@media(max-width: 1200px){

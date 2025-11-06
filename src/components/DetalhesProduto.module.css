@@ -5,21 +5,52 @@
 
 .detalhesProduto{
     padding: 0 60px;
+    position: relative;
 }
+
 .paragrafoDetalhesAberto{
     font-size: 1.563rem;
 
+    white-space: pre-line;
+    line-height: 1.75;
+    max-height: none;
+    margin-bottom: 1rem;
 }
 
 .paragrafoDetalhesFechado{
     font-size: 1.563rem;
-    
-    overflow: hidden; 
-    text-overflow: ellipsis; 
-    display: -webkit-box;
-    -webkit-line-clamp: 12;
-    -webkit-box-orient: vertical;
 
+    /* preservar quebras de linha (\n) vindas do JSON */
+    white-space: pre-line;
+    line-height: 1.75;
+
+    /* limitar a altura para mostrar poucas linhas (ajuste conforme desejar) */
+    max-height: 8.75rem; /* ~5 linhas: 1.75rem * 5 = 8.75rem */
+    overflow: hidden;
+    transition: max-height 300ms ease;
+    position: relative;
+    margin-bottom: 1rem;
+
+    /* remover técnicas conflitantes (webkit-box/clamp) para preservar quebras */
+    text-overflow: unset;
+    display: block;
+}
+
+/* gradiente final para indicar conteúdo cortado */
+.paragrafoDetalhesFechado::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2.4rem;
+    background: linear-gradient(transparent, var(--white));
+    pointer-events: none;
+}
+
+/* gradiente para modo contraste (fundo escuro) */
+#contraste.detalhesProduto .paragrafoDetalhesFechado::after {
+    background: linear-gradient(transparent, var(--black));
 }
 
 .tituloDetalhes{
@@ -32,10 +63,11 @@
     align-items: center;
     justify-content: center;
     padding: 20px 0;
+    margin-top: 0.5rem;
 }
 
 .botao{
-    background-color: var(--purple-300);
+    background-color: var(--green-600);
     border: 0;
     font-size: 1.563rem;
     padding: 20px;
@@ -47,7 +79,7 @@
 
 #contraste.botao{
     background-color: transparent;
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }
 
 @media (max-width: 600px){

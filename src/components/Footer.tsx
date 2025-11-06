@@ -1,6 +1,6 @@
 import styles from './Footer.module.css'
 
-import footerLogo from '../assets/logoFooter.svg'
+import footerLogo from '../assets/new_logo.png'
 import footerTwitter from '../assets/logoTwitter.svg'
 import footerInstagram from '../assets/logoInstagram.svg'
 import footerFacebook from '../assets/logoFacebook.svg'
@@ -17,8 +17,8 @@ export function Footer(){
                 <div className={styles.container} id={contraste && styles.contraste}>
                     
                     <section className={styles.marca}>
-                        <img className={styles.logo} src={footerLogo} alt="Logo da Esotera" />
-                        <p className={styles.info} id={contraste && styles.contraste} >A Esotera é um site de venda de produtos esotéricos desenvolvido em 2022 por um grupo de  alunos do ICMC.</p>
+                        <img className={styles.logo} src={footerLogo} alt="Logo da Minha Amiga que Fez" />
+                        <p className={styles.info} id={contraste && styles.contraste} >A Minha Amiga que Fez é um site de venda de produtos artesanais desenvolvido em 2025.</p>
                     </section>
                     <section className={styles.informacoes} id={contraste && styles.contraste}>
                         <h1>Informações</h1>
@@ -35,7 +35,7 @@ export function Footer(){
                         </ul>    
                     </section>
                 </div>
-                <div className={styles.redes}>
+                {/* <div className={styles.redes}>
                     <a href="#">
                         <img className={styles.twitterImg} src={footerTwitter} alt="Ir para o Twiiter de Esotera" />
                     </a>
@@ -45,7 +45,7 @@ export function Footer(){
                     <a href="#">
                         <img className={styles.facebookImg} src={footerFacebook} alt="Ir para o Facebook de Esotera" />
                     </a>
-                </div>
+                </div> */}
             </footer>
         </> 
     )

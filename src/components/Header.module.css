@@ -20,7 +20,7 @@
     height: 108px;
     width: 100%;
     font-size: 1.5rem;
-    background: var(--purple-500);
+    background: var(--green-500);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -31,10 +31,21 @@
 
 .logo{
     padding: 0 1rem;
-    height: auto;
-    width: 26%;
-    min-width: 260px;
+    width: auto;
+    max-width: 240px;
+    max-height: 72px;
+    display: flex;
+    align-items: center;
     cursor: pointer;
+}
+
+/* garante que a imagem dentro respeite os limites do container */
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
 }
 
 .funcoes{
@@ -56,7 +67,7 @@
 }
 
 #contraste.input::placeholder {
-    color: var(--purple-c);
+    color: var(--green-c);
   }
 
 
@@ -68,7 +79,7 @@
     width: 600px;
     height: 60px;
     font-size: 1.125rem;
-    color: var(--purple-700);
+    color: var(--green-700);
     padding: 16px;
     padding-right: 70px;
 }
@@ -118,7 +129,7 @@
 .quantidade{
     width: 26px;
     height: 26px;
-    background-color: var(--purple-800);
+    background-color: var(--green-800);
     border-radius: 50%;
     color: var(--white);
     text-align: center;
@@ -132,7 +143,7 @@
 
 #contraste.quantidade{
     background-color: black;
-    border: 1px solid var(--purple-c);
+    border: 1px solid var(--green-c);
     color: white;
 }
 
@@ -178,13 +189,13 @@
 
 #contraste button{
     background: black;
-    color: var(--purple-c);
+    color: var(--green-c);
     border-top: 1px solid var(--white);
 }
 
 #contraste button:hover{
     background: black;
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 #contraste .botaoPromo {
@@ -192,11 +203,11 @@
 }
 
 #contraste .botaoPromo:hover {
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 #contraste .botaoRegular:hover{
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 
@@ -229,7 +240,7 @@
     .quantidade{
         width: 18px;
         height: 18px;
-        background-color: var(--purple-800);
+        background-color: var(--green-800);
         border-radius: 50%;
         color: var(--white);
         text-align: center;
@@ -243,7 +254,7 @@
 
     #contraste.quantidade{
         background-color: black;
-        border: 1px solid var(--purple-c);
+        border: 1px solid var(--green-c);
         color: white;
     }
 
@@ -254,7 +265,7 @@
         left: 0;
         width: 100% + 50px;
         font-size: 1.5rem;
-        background: var(--purple-500);
+        background: var(--green-500);
         display: flex;
         align-items: center;
         position: fixed;
@@ -281,15 +292,15 @@
     }
 
     .dropMenu .botaoPromo {
-        background-color: var(--purple-800);
+        background-color: var(--green-800);
     }
 
     .dropMenu .botaoPromo:hover {
-        color: var(--purple-800);
+        color: var(--green-800);
     }
 
     .dropMenu .botaoRegular:hover{
-        color: var(--purple-500);
+        color: var(--green-500);
     }
 
 

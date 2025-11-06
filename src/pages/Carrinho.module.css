@@ -26,7 +26,7 @@
 
 h1.titulo{
     font-size: 2.25rem;
-    color: var(--purple-800);
+    color: var(--green-800);
     font-weight: normal;
     margin-bottom: 29px;
 }
@@ -34,7 +34,7 @@ h1.titulo{
 h2.titulo{
     text-align: center;
     font-size: 1.875rem;
-    color: var(--purple-800);
+    color: var(--green-800);
     font-weight: normal;
     margin-bottom: 29px;
 }
@@ -82,11 +82,11 @@ h2.titulo{
     font-weight: 400;
     font-size: 2.25rem;
     line-height: 43px;
-    color: var(--purple-800);
+    color: var(--green-800);
 }
 
 .button{
-    background-color: var(--purple-600);
+    background-color: var(--green-600);
     border-radius: 8px;
     width: 530px;
     height: 72px;
@@ -124,7 +124,7 @@ h2.titulo{
 
 
 .button:hover{
-    background-color: var(--purple-500);
+    background-color: var(--green-500);
 }
 
 .cartao{
@@ -160,7 +160,7 @@ h2.titulo{
 
 .valorItens{
     font-size: 1.75rem;
-    color:  var(--purple-800);
+    color:  var(--green-800);
     
 }
 
@@ -180,7 +180,7 @@ h2.titulo{
 
 .valorFrete{
     font-size: 1.75rem;
-    color:  var(--purple-800);
+    color:  var(--green-800);
 }
 
 .valorTotalBox{
@@ -201,7 +201,7 @@ h2.titulo{
 
 .valorTotal{
     font-size: 2.25rem;
-    color:  var(--purple-800);
+    color:  var(--green-800);
 }
 
 .buttonsCards{
@@ -212,7 +212,7 @@ h2.titulo{
 }
 
 .buttonRemove{
-    background-color: var(--purple-700);
+    background-color: var(--green-700);
     border-radius: 8px;
     width: 48%;
     display: flex;
@@ -248,11 +248,11 @@ h2.titulo{
 }
 
 .buttonRemove:hover{
-    background-color: var(--purple-600);
+    background-color: var(--green-600);
 }
 
 .buttonContinue{
-    background-color: var(--purple-600);
+    background-color: var(--green-600);
     border-radius: 8px;
     width: 48%;
     display: flex;
@@ -268,7 +268,7 @@ h2.titulo{
 }
 
 .buttonContinue:hover{
-    background-color: var(--purple-500);
+    background-color: var(--green-500);
 }
 
 .background {
@@ -324,7 +324,7 @@ h2.titulo{
 #contraste .buttonContinue{
     background-color: black;
     color: var(--white);
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }
 
 #contraste .buttonContinue:hover{
@@ -334,7 +334,7 @@ h2.titulo{
 #contraste .buttonRemove{
     background-color: black;
     color: var(--white);
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }
 
 #contraste .buttonRemove:hover{
@@ -344,7 +344,7 @@ h2.titulo{
 #contraste .button{
     background-color: black;
     color: var(--white);
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }
 
 #contraste .button:hover{
@@ -388,7 +388,7 @@ h2.titulo{
 
     h2.titulo{
         font-size: 40px;
-        color: var(--purple-800);
+        color: var(--green-800);
         font-weight: normal;
         margin-bottom: 29px;
         width: 400px;
@@ -444,7 +444,7 @@ h2.titulo{
     }
     
     .button:hover{
-        background-color: var(--purple-500);
+        background-color: var(--green-500);
     }
     
     .cartao{

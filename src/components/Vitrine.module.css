@@ -6,8 +6,8 @@
     
     display: grid;
     grid-template-columns: repeat(3, minmax(auto-fit, 1fr));
-    grid-template-areas: "card card card card"
-                         "card card card card";
+    grid-template-areas: "card card card"
+                         "card card card";
     grid-gap: 20px;
     padding: 3rem;
     justify-content: center;

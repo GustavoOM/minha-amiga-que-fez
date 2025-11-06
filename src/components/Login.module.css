@@ -49,11 +49,11 @@
 
 .modalHeader {
     padding: 15px 0;
-    color: var(--purple-800);
+    color: var(--green-800);
 }
 
 .inputWrapper label {
-    color: var(--purple-800);
+    color: var(--green-800);
 }
 
 .inputWrapper input {
@@ -72,7 +72,7 @@
 }
 
 .esqueceuSenha {
-    color: var(--purple-800);
+    color: var(--green-800);
     text-decoration: none;
     font-size: 0.75rem;
     font-weight: bold;
@@ -83,7 +83,7 @@
     margin-right: 16px;
     margin-bottom: 16px;
     display: inline-block;
-    background-color: var(--purple-600);
+    background-color: var(--green-600);
     border-radius: 4px;
     width: 100%;
     padding: 0.75em;
@@ -101,7 +101,7 @@
 }
 
 .button:hover{
-    background-color: var(--purple-500);
+    background-color: var(--green-500);
 }
 
 .cadastrar{
@@ -114,7 +114,7 @@
     text-decoration: none;
     font-weight: bold;
     cursor: pointer;
-    color: var(--purple-700);
+    color: var(--green-700);
 }
 
 .divider {
@@ -226,7 +226,7 @@
 #contraste .button{
     background-color: black;
     color: var(--white);
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }
 
 #contraste .button:hover{
@@ -238,14 +238,14 @@
 }
 
 #contraste .cadastre{
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 
 #contraste .socialNetworkButton {
     background-color: black;
     color: white;
-    border: 1px solid var(--purple-c);
+    border: 1px solid var(--green-c);
 }
 
 #contraste .socialNetworkButton:hover{
@@ -265,7 +265,7 @@
 }
 
 #contraste input::placeholder{
-    color: var(--purple-100);
+    color: var(--green-100);
 }
 
 #contraste input{
@@ -274,5 +274,5 @@
 }
 
 #contraste .esqueceuSenha {
-    color: var(--purple-c);
+    color: var(--green-c);
 }

@@ -32,43 +32,35 @@ export function NavButtons(){
             }
             {
                 (selecionado == 2) &&
-                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Incensos",2)}>Incensos</button>
+                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Bolsas",2)}>Bolsas</button>
             }
             {
                 (selecionado != 2) &&
-                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Incensos",2)}>Incensos</button>
+                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Bolsas",2)}>Bolsas</button>
             }
             {
                 (selecionado == 3) &&
-                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Cristais",3)}>Cristais</button>
+                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Porta cartão",3)}>Porta cartão</button>
             }
             {
                 (selecionado != 3) &&
-                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Cristais",3)}>Cristais</button>
+                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Porta cartão",3)}>Porta cartão</button>
             }
             {
                 (selecionado == 4) &&
-                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Signos",4)}>Signos</button>
+                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Chaveiros",4)}>Chaveiros</button>
             }
             {
                 (selecionado != 4) &&
-                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Signos",4)}>Signos</button>
+                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Chaveiros",4)}>Chaveiros</button>
             }
             {
                 (selecionado == 5) &&
-                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Cartas",5)}>Cartas</button>
+                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Brincos",5)}>Brincos</button>
             }
             {
                 (selecionado != 5) &&
-                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Cartas",5)}>Cartas</button>
-            }
-            {
-                (selecionado == 6) &&
-                <button id={contraste && styles.contraste} className={styles.selecionado} onClick={()=>setButton("Artefatos",6)}>Artefatos</button>
-            }
-            {
-                (selecionado != 6) &&
-                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Artefatos",6)}>Artefatos</button>
+                <button id={contraste && styles.contraste} className={styles.botaoRegular} onClick={()=>setButton("Brincos",5)}>Brincos</button>
             }
         </div>
     )

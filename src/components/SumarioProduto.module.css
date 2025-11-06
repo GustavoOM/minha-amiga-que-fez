@@ -75,12 +75,12 @@
 
 #contraste.estoque{
     background-color: transparent;
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 #contraste.naoDisponivel{
     background-color: transparent;
-    color: var(--purple-c);
+    color: var(--green-c);
 }
 
 .comprados{
@@ -131,10 +131,10 @@
 
 
 .contador input{
-    color: var(--purple-800);
+    color: var(--green-800);
     font-size: 1.688rem;
     text-align: center;
-    font-weight: lighter;
+    font-weight: normal;
     border: none;
     width: 50px;
 }
@@ -156,8 +156,8 @@
 }
 
 #contraste.decrementar{
-    color: var(--purple-c);
-    border: 2px solid var(--purple-c);
+    color: var(--green-c);
+    border: 2px solid var(--green-c);
     font-size: 2rem;
 }
 
@@ -168,8 +168,8 @@
 }
 
 #contraste.incrementar{
-    color: var(--purple-c);
-    border: 2px solid var(--purple-c);
+    color: var(--green-c);
+    border: 2px solid var(--green-c);
     font-size: 2rem;
 }
 
@@ -192,7 +192,7 @@
 }
 
 .botaoCarrinho{
-    background-color: var(--purple-600);
+    background-color: var(--green-600);
     border-radius: 8.27586px;
     border: none;
     color: var(--white);
@@ -206,7 +206,7 @@
 
 #contraste.botaoCarrinho{
     background-color: transparent;
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }
 
 .botaoCarrinho img{
@@ -223,8 +223,8 @@
 .botaoFrete{
     background-color: var(--white);
     border-radius: 8.27586px;
-    border: 3px solid var(--purple-500);
-    color: var(--purple-500);
+    border: 3px solid var(--green-500);
+    color: var(--green-500);
     font-size: 1.125rem;
     font-weight: bold;
     padding: 17px;
@@ -241,7 +241,7 @@
 .botaoFavorito{
     background-color: var(--white);
     border-radius: 8.27586px;
-    border: 3px solid var(--purple-500);
+    border: 3px solid var(--green-500);
     padding: 17px;
     display: flex;
     align-items: center;
@@ -250,7 +250,7 @@
 
 #contraste.botaoFavorito{
     background-color: transparent;
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }
 
 @media (max-width: 1250px){

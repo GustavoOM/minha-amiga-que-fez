@@ -4,7 +4,7 @@
 
 .formulario legend{
     padding-bottom: 12px;
-    color: var(--purple-800);
+    color: var(--green-800);
 }
 
 .formulario fieldset{
@@ -62,7 +62,7 @@ input#complemento{
 }
 
 #contraste input::placeholder{
-    color: var(--purple-100);
+    color: var(--green-100);
 }
 
 #contraste input{

@@ -6,7 +6,7 @@
   position: relative;
   z-index: -1;
   padding-top: 140px;
-  background: var(--purple-500);
+  background: var(--green-500);
 }
 
 .filtro{
@@ -22,7 +22,7 @@
     display: block;
     text-align: center;
     padding-top: 85px;
-    color: var(--purple-700);
+    color: var(--green-700);
   }
 
   #contraste.filtro{

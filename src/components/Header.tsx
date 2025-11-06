@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 import React, { useState, useEffect } from 'react';
-import headerLogo from '../assets/logo.svg'
+import headerLogo from '../assets/new_logo.png'
 import headerLupa from '../assets/lupa.svg'
 import headerLupaContraste from '../assets/lupaContraste.svg'
 import headerCarrinho from '../assets/carrinho.svg'
@@ -92,11 +92,10 @@ export function Header(props) {
                     {open && <div className={styles.dropMenu} id={contraste && styles.contraste}>
                         <button className={styles.botaoRegular} onClick={()=>{setFiltro("Promoções");setOpen(false)}}>Promoções</button>
                         <button className={styles.botaoRegular} onClick={()=>{setFiltro("");setOpen(false)}}>Página Inicial</button>
-                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Incensos");setOpen(false)}} >Incensos</button>
-                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Cristais");setOpen(false)}} >Cristais</button>
-                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Signos");setOpen(false)}} >Signos</button>
-                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Cartas");setOpen(false)}} >Cartas</button>
-                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Artefatos");setOpen(false)}} >Artefatos</button>
+                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Bolsas");setOpen(false)}} >Bolsas</button>
+                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Porta cartão");setOpen(false)}} >Porta cartão</button>
+                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Chaveiros");setOpen(false)}} >Chaveiros</button>
+                        <button className={styles.botaoRegular} onClick={()=>{setFiltro("Brincos");setOpen(false)}} >Brincos</button>
                     </div>}
                     <img onClick={navigateToPrincipal} className={styles.logo} src={headerLogo} alt="Logo" />
                     <div className={styles.funcoes}>

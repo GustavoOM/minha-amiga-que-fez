@@ -35,7 +35,7 @@
 
 .categoria{
     font-size: 1rem;
-    color: var(--purple-800);
+    color: var(--green-800);
     font-weight: bold;
     margin: 16px 0;
     text-align: center;
@@ -59,7 +59,7 @@
 
 .valor{
     font-size: 1.5rem;
-    color: var(--purple-800);
+    color: var(--green-800);
     font-weight: bold;
     text-align: center;
 }
@@ -73,12 +73,12 @@
 #contraste.button{
     background-color: transparent;
     color: var(--white);
-    border: 2px solid var(--purple-c);
+    border: 2px solid var(--green-c);
 }
 
 .button{
     margin-right: 16px;
-    background-color: var(--purple-600);
+    background-color: var(--green-600);
     border-radius: 4px;
     width: 192px;
     height: 32px;
@@ -95,11 +95,11 @@
 }
 
 .button:hover{
-    background-color: var(--purple-500);
+    background-color: var(--green-500);
 }
 
 .coracao{
-    fill: var(--purple-c);
+    fill: var(--green-c);
     cursor: pointer;
     cursor: pointer;
 }
