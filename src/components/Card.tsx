@@ -7,6 +7,7 @@ import coracaoCheioContraste from '../assets/coracaoCheioContraste.svg'
 import coracaoVazioContraste from '../assets/coracaoVazioContraste.svg'
 import { useAuthContext } from "../contexts/auth/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
+import { BsHeartFill, BsHeart } from "react-icons/bs";
 
 interface Card {
   imagemPrincipal?: string;
@@ -60,17 +61,17 @@ export function Card(props:Card){
           <div className={styles.coracao}>
             
             {isClick && contraste &&
-              <img alt="Remover produto dos favoritos" src={coracaoCheioContraste} isClick={isClick} onClick={() => setClick(!isClick)}/>
+              <BsHeartFill color="var(--green-c)" size={24} aria-label="Remover produto dos favoritos" isClick={isClick} onClick={() => setClick(!isClick)}/>
             }
             {!isClick && contraste &&
-              <img alt="Adicionar produto aos favoritos" src={coracaoVazioContraste} isClick={isClick} onClick={() => setClick(!isClick)}/>
+              <BsHeart size={24} color="var(--green-c)" aria-label="Adicionar produto aos favoritos" isClick={isClick} onClick={() => setClick(!isClick)}/>
             }
             {isClick && !contraste &&
-              <img alt="Remover produto dos favoritos" src={coracaoCheio} isClick={isClick} onClick={() => setClick(!isClick)}/>
+              <BsHeartFill size={24} color="var(--green-800)" aria-label="Remover produto dos favoritos" isClick={isClick} onClick={() => setClick(!isClick)}/>
             }
             {!isClick && !contraste &&
-              <img alt="Adicionar produto aos favoritos" src={coracaoVazio} isClick={isClick} onClick={() => setClick(!isClick)}/>
-            }
+              <BsHeart size={24} color="var(--green-800)" aria-label="Adicionar produto aos favoritos" isClick={isClick} onClick={() => setClick(!isClick)}/>
+            }  
           </div>
         </div>
       </div>

@@ -4,10 +4,7 @@ import carrinho from '../assets/carrinho.svg'
 import checkIcon from '../assets/check.png'
 import { produto } from '../data.json'
 import { useAuthContext } from '../contexts/auth/AuthContext'
-import coracaoCheio from '../assets/coracaoCheio.svg'
-import coracaoVazio from '../assets/coracaoVazio.svg'
-import coracaoCheioContraste from '../assets/coracaoCheioContraste.svg'
-import coracaoVazioContraste from '../assets/coracaoVazioContraste.svg'
+import { BsHeart, BsHeartFill } from 'react-icons/bs';
 import { ModalPrecisaLogar } from '../components/ModalPrecisaLogar';
 
 export function SumarioProduto(props){
@@ -166,16 +163,16 @@ export function SumarioProduto(props){
                 </button>
                 <button className={styles.botaoFavorito} id={contraste && styles.contraste} onClick={() => setClick(!isClick)}>
                   {isClick && contraste &&
-                    <img src={coracaoCheioContraste} alt="Remover produto dos favoritos" />
-                  }
+                    <BsHeartFill color="var(--green-c)" size={24} aria-label="Remover produto dos favoritos" />
+                  } 
                   {!isClick && contraste &&
-                    <img src={coracaoVazioContraste} alt="Adicionar produto aos favoritos"/>
+                    <BsHeart size={24} color="var(--green-c)" aria-label="Adicionar produto aos favoritos" />
                   }
                   {isClick && !contraste &&
-                    <img src={coracaoCheio} alt="Remover produto dos favoritos" />
+                    <BsHeartFill size={24} color="var(--green-800)" aria-label="Remover produto dos favoritos" />
                   }
                   {!isClick && !contraste &&
-                    <img src={coracaoVazio} alt="Adicionar produto aos favoritos"/>
+                    <BsHeart size={24} color="var(--green-800)" aria-label="Adicionar produto aos favoritos"/>
                   }
                 </button>
             </div>

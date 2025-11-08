@@ -58,7 +58,7 @@ h2.titulo{
     
     width: 530px;
     height: 720px;
-    background-color: rgb(224, 170, 255, 0.6);
+    background-color: var(--green-100);
     border-radius: 20px;
     padding: 30px;
     display: flex;
@@ -86,7 +86,7 @@ h2.titulo{
 }
 
 .button{
-    background-color: var(--green-600);
+    background-color: var(--green-800);
     border-radius: 8px;
     width: 530px;
     height: 72px;
@@ -104,7 +104,7 @@ h2.titulo{
 }
 
 .buttonApagado{
-    background-color: rgb(60,09,108,0.5);
+    background-color: var(--gray-400);
     border-radius: 8px;
     width: 530px;
     height: 72px;
@@ -212,7 +212,7 @@ h2.titulo{
 }
 
 .buttonRemove{
-    background-color: var(--green-700);
+    background-color: var(--green-500);
     border-radius: 8px;
     width: 48%;
     display: flex;
@@ -230,7 +230,7 @@ h2.titulo{
 }
 
 .buttonRemoveApagado{
-    background-color: rgb(36, 0, 70, 0.5);
+    background-color: var(--gray-400);
     border-radius: 8px;
     width: 48%;
     display: flex;
@@ -252,7 +252,7 @@ h2.titulo{
 }
 
 .buttonContinue{
-    background-color: var(--green-600);
+    background-color: var(--green-800);
     border-radius: 8px;
     width: 48%;
     display: flex;
@@ -415,7 +415,7 @@ h2.titulo{
     .boxCardsCompras{
         width: 300px;
         height: 720px;
-        background-color: rgb(224, 170, 255, 0.6);;
+        background-color: var(--green-100);
         border-radius: 20px;
         padding: 30px;
         display: flex;
