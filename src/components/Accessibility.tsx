@@ -24,11 +24,17 @@ export function Accessibility(){
     return(
         <div className={styles.containerAccessibility}>
             <div className={styles.accessibility} id={contraste && styles.contraste}>
-                <img onClick={aumentarFonte} className={styles.tamFonte} src={accessFonteAumentar} alt="Aumentar o tamanho da fonte" />
+                <button type="button" aria-label="Aumentar o tamanho da fonte" className={styles.tamFonte} onClick={aumentarFonte}>
+                    <img src={accessFonteAumentar} alt="" />
+                </button>
                 <hr className={styles.linha}/>
-                <img onClick={diminuirFonte} className={styles.tamFonte} src={accessFonteDiminuir} alt="Diminuir o tamanho da fonte" />
+                <button type="button" aria-label="Diminuir o tamanho da fonte" className={styles.tamFonte} onClick={diminuirFonte}>
+                    <img src={accessFonteDiminuir} alt="" />
+                </button>
                 <hr className={styles.linha}/>
-                <img className={styles.contraste} src={accessContraste} onClick={()=>setContraste(!contraste)} alt="Mudar o modo de contraste" />
+                <button type="button" aria-label="Mudar o modo de contraste" className={styles.contraste} onClick={()=>setContraste(!contraste)}>
+                    <img src={accessContraste} alt="" />
+                </button>
             </div>
         </div>
     )

@@ -49,10 +49,10 @@ export function Login({showModal, setShowModal}){
                             <a className={styles.esqueceuSenha} href="">Esqueceu sua senha?</a>
                         </div>
                         <button type="submit" className={styles.button} onClick={logar}>ENTRAR</button>
-                        <div onClick={openModalCad} className={styles.cadastrar}>
+                        <button type="button" onClick={openModalCad} className={styles.cadastrar} aria-label="Abrir cadastro">
                             <span className={styles.semContaSpan}>Não possui conta?&nbsp;&nbsp;</span>
                             <span className={styles.cadastre}>CADASTRE-SE</span>
-                        </div>
+                        </button>
                         <div className={styles.divider}>
                             <span role="text" className={styles.dividerSpan} aria-label="Ou entre com uma dessas opções">ou entre com</span>
                             <hr/>

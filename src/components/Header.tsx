@@ -50,22 +50,6 @@ export function Header(props) {
 
   const [open, setOpen] = useState(false);
   const [buscaLocal, setBuscaLocal] = useState("");
-  const closeIcon = (
-    <CgClose
-      className={styles.burgerIcon}
-      size="26px"
-      color="white"
-      onClick={() => setOpen(!open)}
-    />
-  );
-  const hamburgerIcon = (
-    <CgMenu
-      className={styles.burgerIcon}
-      size="26px"
-      color="white"
-      onClick={() => setOpen(!open)}
-    />
-  );
 
   useEffect(() => {
     setNome(localStorage.getItem("username")?.split(" ")[0]);
@@ -99,7 +83,18 @@ export function Header(props) {
       <header className={styles.header} id={"header"}>
         <div className={styles.topHeader} id={contraste && styles.contraste}>
           <div className={styles.burgerContainer}>
-            {open ? closeIcon : hamburgerIcon}
+            <button
+              type="button"
+              aria-label={open ? "Fechar menu" : "Abrir menu"}
+              className={styles.burgerButton}
+              onClick={() => setOpen(!open)}
+            >
+              {open ? (
+                <CgClose className={styles.burgerIcon} size="26px" color="white" />
+              ) : (
+                <CgMenu className={styles.burgerIcon} size="26px" color="white" />
+              )}
+            </button>
           </div>
           {open && (
             <div className={styles.dropMenu} id={contraste && styles.contraste}>
@@ -159,12 +154,9 @@ export function Header(props) {
               </button>
             </div>
           )}
-          <img
-            onClick={navigateToPrincipal}
-            className={styles.logo}
-            src={headerLogo}
-            alt="Logo"
-          />
+          <button type="button" onClick={navigateToPrincipal} className={styles.logoButton} aria-label="Ir para a página inicial">
+            <img className={styles.logo} src={headerLogo} alt="Logo" />
+          </button>
           <div className={styles.funcoes}>
             <form
               onSubmit={(event) => {
@@ -204,32 +196,25 @@ export function Header(props) {
             </form>
 
             <div className={styles.icones}>
-              <div
-                onClick={nome ? navigateToCarrinho : precisaLogar}
+              <button
+                type="button"
                 className={styles.carrinho}
+                onClick={nome ? navigateToCarrinho : precisaLogar}
+                aria-label="Ir para o carrinho"
               >
-                <img
-                  className={styles.carrinhoImg}
-                  src={headerCarrinho}
-                  alt="Ir para o carrinho"
-                />
-                <div
-                  className={styles.quantidade}
-                  id={contraste && styles.contraste}
-                >
+                <img className={styles.carrinhoImg} src={headerCarrinho} alt="" />
+                <div className={styles.quantidade} id={contraste && styles.contraste}>
                   {qtdItensCarrinho}
                 </div>
-              </div>
-              <img
+              </button>
+              <button
+                type="button"
+                className={styles.perfilButton}
                 onClick={nome ? changeStateModalLogout : openModalLogin}
-                className={styles.perfilImg}
-                src={headerPerfil}
-                alt={
-                  modalLogout
-                    ? "Você está autenticado em sua conta"
-                    : "Entrar no Perfil"
-                }
-              />
+                aria-label={modalLogout ? "Você está autenticado em sua conta" : "Entrar no Perfil"}
+              >
+                <img className={styles.perfilImg} src={headerPerfil} alt="" />
+              </button>
               {modalLogout && <MenuLogout />}
               {nome && <div className={styles.nomeUsuario}>{nome}</div>}
               <a href="#">

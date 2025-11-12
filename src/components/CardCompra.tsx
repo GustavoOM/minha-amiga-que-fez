@@ -52,9 +52,15 @@ export function CardCompra(props:CardCompra){
                 }
             </div>
           </Link>
-            <div id={contraste && styles.contraste} className={styles.excluir} onClick={() => {props.atualizarQuantidade(props.idProduto, 0)}}>
+            <button
+              type="button"
+              id={contraste && styles.contraste}
+              className={styles.excluir}
+              onClick={() => {props.atualizarQuantidade(props.idProduto, 0)}}
+              aria-label="Remover item do carrinho"
+            >
               <IoClose/>
-            </div>
+            </button>
             <div className={styles.informacoes}>
               <h1 className={styles.titulo}>{props.titulo}</h1>
               <h2 className={styles.valor}>R${props.valor.toFixed(2)}</h2>

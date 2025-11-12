@@ -120,9 +120,14 @@ export function Carrinho(props) {
               }
             </div>
             <div className={styles.buttonsCards}>
-              <div onClick={() => {localStorage.setItem("carrinho", "[]"); setCarrinhoList([]); setValorItens(calcularValorItens());}} className={ getCarrinhoList().length != 0 ? styles.buttonRemove : styles.buttonRemoveApagado }>
+              <button
+                type="button"
+                onClick={() => {localStorage.setItem("carrinho", "[]"); setCarrinhoList([]); setValorItens(calcularValorItens());}}
+                className={ getCarrinhoList().length != 0 ? styles.buttonRemove : styles.buttonRemoveApagado }
+                aria-label="Limpar carrinho"
+              >
                   Limpar carrinho
-              </div>
+              </button>
               <Link to={"/"} className={styles.buttonContinue}>
                 Continuar comprando
               </Link>
@@ -143,10 +148,23 @@ export function Carrinho(props) {
               <h3 className={styles.valorTotal}>R$ {(valorItens+valorFrete).toFixed(2)}</h3>
             </div>
           </div>
-          <a href={ getCarrinhoList().length != 0 && canFinalizar ? "#" : "#!"} onClick={ () => { if(getCarrinhoList().length != 0 && canFinalizar) openModalDePagamento() } } className={ getCarrinhoList().length != 0 && canFinalizar ? styles.button : styles.buttonApagado}>
-            Finalizar a compra
-            <img className={styles.cartao} src={cartao} />
-          </a>
+          {
+            (() => {
+              const enabled = getCarrinhoList().length != 0 && canFinalizar;
+              return (
+                <button
+                  type="button"
+                  disabled={!enabled}
+                  onClick={() => { if(enabled) openModalDePagamento() }}
+                  className={ enabled ? styles.button : styles.buttonApagado }
+                  aria-label={ enabled ? "Finalizar a compra" : "Finalizar a compra indisponível" }
+                >
+                  Finalizar a compra
+                  <img className={styles.cartao} src={cartao} alt="" />
+                </button>
+              )
+            })()
+          }
         </div>
       </div>
       </div>
