@@ -1,0 +1,172 @@
+{
+	"filtro": "",
+	"carrosseis":[
+		{
+			"imagem":"https://imgur.com/AhNt9Ru.png",
+			"alt": "Bolsas"
+		},
+		{
+			"imagem":"https://imgur.com/VhjIidb.png",
+			"alt": "Porta Cartão"
+		},
+		{
+			"imagem":"https://imgur.com/fCH0EAV.png",
+			"alt": "Chaveiros"
+		},
+		{
+			"imagem":"https://imgur.com/NqddggS.png",
+			"alt": "Brincos"
+		}
+	],
+	"produto":[
+		{
+			"titulo":"Bolsa Colorê",
+			"valor":329.90,
+			"imagemPrincipal":"https://imgur.com/buzALJv.png",
+			"categoria":"Bolsas",
+			"isPromocao": true,
+			"idProduto": 0,
+			"qtdEmEstoque": 10,
+			"qtdComprados": 5,
+			"qtdDeEstrelas": 5,
+			"qtdAvaliacoes": 36,
+			"descricaoDetalhadaMenor":"Bolsa de miçanga colorida, alça curta, ideal para looks casuais.",
+			"imagensAlternativas": [
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png",
+				"https://imgur.com/buzALJv.png"
+			],
+			"descricaoImg": "Essa foto contém uma bolsa de miçanga preta com losangos de pedras coloridas.",
+			"descricaoDetalhadaMaior":"Bolsa artesanal confeccionada em miçangas de vidro com base interna em tecido reforçado. Acabamento manual com padrão multicolorido.\n\nDimensões e capacidade:\n- Medidas aproximadas: 22 x 18 x 5 cm.\n- Cabem carteira média, celular (até 6.5\"), chaves e pequenos itens.\n- Queda da alça: ~20–25 cm.\n\nMateriais, peso e estrutura:\n- Estrutura interna: forro em poliéster com bolso interno simples.\n- Fechamento: botão de pressão.\n- Peso aproximado: 240 g.\n\nCuidados e garantias:\n- Limpar com pano seco ou levemente úmido; evitar imersão em água e produtos químicos.\n- Conservar em local seco e arejado; pequenas variações de cor/padrão são naturais por ser peça artesanal.\n- Garantia contra defeito de fabricação: 90 dias."
+		},
+		{
+			"titulo":"Chaveiro de coração",
+			"valor":39.90,
+			"imagemPrincipal":"https://imgur.com/r8BOebs.png",
+			"categoria":"Chaveiros",
+			"isPromocao": false,
+			"idProduto": 1,
+			"qtdEmEstoque": 10,
+			"qtdComprados": 5,
+			"qtdDeEstrelas": 5,
+			"qtdAvaliacoes": 36,
+			"descricaoDetalhadaMenor":"Conjunto de chaveiros de miçanga em formato de coração, coloridos e leves.",
+			"imagensAlternativas": [
+				"https://imgur.com/r8BOebs.png",
+				"https://imgur.com/r8BOebs.png",
+				"https://imgur.com/r8BOebs.png",
+				"https://imgur.com/r8BOebs.png",
+				"https://imgur.com/r8BOebs.png",
+				"https://imgur.com/r8BOebs.png",
+				"https://imgur.com/r8BOebs.png",
+				"https://imgur.com/r8BOebs.png"
+			],
+			"descricaoImg": "Essa foto contém sete chaveiros de miçanga em forma de coração, nas cores prata, amarelo, verde, rosa, azul claro, laranja e azul escuro.",
+			"descricaoDetalhadaMaior":"Chaveiro artesanal em miçanga montado sobre estrutura de fio resistente com argola metálica galvanizada.\n\nEspecificações técnicas:\n- Diâmetro total (sem argola): ~6 cm.\n- Peso aproximado por unidade: 12 g.\n- Material da argola: metal galvanizado resistente à oxidação (não é hipoalergênico).\n\nUso e manutenção:\n- Ideal para bolsas, mochilas e chaves. Evitar contato prolongado com água e perfumes para preservar cor e acabamento metálico.\n- Limpar com pano seco e guardar em local seco.\n\nObservações de produção:\n- Peça feita manualmente; pequenas diferenças entre unidades são esperadas."
+		},
+		{
+			"titulo":"Bolsa Glow",
+			"valor":279.90,
+			"imagemPrincipal":"https://imgur.com/FLt1h5h.png",
+			"categoria":"Bolsas",
+			"isPromocao": false,
+			"idProduto": 2,
+			"qtdEmEstoque": 10,
+			"qtdComprados": 5,
+			"qtdDeEstrelas": 5,
+			"qtdAvaliacoes": 36,
+			"descricaoDetalhadaMenor":"Bolsa com acabamento brilhante em miçanga, estilo moderno e elegante.",
+			"imagensAlternativas": [
+				"https://imgur.com/FLt1h5h.png",
+				"https://imgur.com/FLt1h5h.png",
+				"https://imgur.com/FLt1h5h.png",
+				"https://imgur.com/FLt1h5h.png",
+				"https://imgur.com/FLt1h5h.png",
+				"https://imgur.com/FLt1h5h.png",
+				"https://imgur.com/FLt1h5h.png",
+				"https://imgur.com/FLt1h5h.png"
+			],
+			"descricaoImg": "Essa foto contém uma bola de miçanga prateada com alça curta.",
+			"descricaoDetalhadaMaior":"Bolsa com efeito 'glow' construída em miçangas metálicas e fio reforçado, com forro em poliéster e costura dupla nas áreas de maior tensão.\n\nDimensões e estrutura:\n- Medidas aproximadas: 25 x 20 x 6 cm.\n- Alça média fixa com queda aproximada de 30 cm.\n- Fecho principal: zíper invisível.\n- Peso aproximado: 300 g.\n\nRecursos internos:\n- Forro com bolso interno fechado por zíper para pequenos objetos; espaço principal para itens de uso noturno.\n\nManutenção e recomendações:\n- Limpeza delicada: pano seco ou levemente úmido; evitar atrito intenso e exposição prolongada à água para não comprometer o brilho.\n- Não usar alvejantes ou solventes.\n\nProdução:\n- Produto artesanal; variações de brilho e tonalidade podem ocorrer entre lotes."
+		},
+		{
+			"titulo":"Porta cartão de coração",
+			"valor":64.90,
+			"imagemPrincipal":"https://imgur.com/AdbYn3y.png",
+			"categoria":"Porta cartão",
+			"isPromocao": false,
+			"idProduto": 3,
+			"qtdEmEstoque": 10,
+			"qtdComprados": 5,
+			"qtdDeEstrelas": 5,
+			"qtdAvaliacoes": 36,
+			"descricaoDetalhadaMenor":"Porta-cartões compacto em formato de coração, ideal para cartão e documentos pequenos.",
+			"imagensAlternativas": [
+				"https://imgur.com/AdbYn3y.png",
+				"https://imgur.com/AdbYn3y.png",
+				"https://imgur.com/AdbYn3y.png",
+				"https://imgur.com/AdbYn3y.png",
+				"https://imgur.com/AdbYn3y.png",
+				"https://imgur.com/AdbYn3y.png",
+				"https://imgur.com/AdbYn3y.png",
+				"https://imgur.com/AdbYn3y.png"
+			],
+			"descricaoImg": "Essa foto contém uma bolsa terê (infantil)",
+			"descricaoDetalhadaMaior":"Porta-cartões artesanal em miçanga com forro interno em material sintético resistente.\n\nDimensões e capacidade:\n- Medidas aproximadas: 11 x 7 x 1,5 cm.\n- Capacidade: 4 a 6 cartões, dependendo da espessura; aceita notas dobradas.\n\nFechamento e acabamento:\n- Fechamento por botão de pressão; bordas reforçadas para maior durabilidade.\n- Peso aproximado: 40 g.\n\nCuidados:\n- Limpar apenas com pano seco; evitar exposição prolongada ao sol para prevenir desbotamento.\n\nOutras informações:\n- Ideal para uso diário e como presente; peça feita manualmente no Brasil."
+		},
+		{
+			"titulo":"Brincos de flor",
+			"valor":34.90,
+			"imagemPrincipal":"https://imgur.com/uUU5vti.png",
+			"categoria":"Brincos",
+			"isPromocao": false,
+			"idProduto": 4,
+			"qtdEmEstoque": 10,
+			"qtdComprados": 5,
+			"qtdDeEstrelas": 5,
+			"qtdAvaliacoes": 36,
+			"descricaoDetalhadaMenor":"Brincos de miçanga em formato de flor, leves e coloridos.",
+			"imagensAlternativas": [
+				"https://imgur.com/uUU5vti.png",
+				"https://imgur.com/uUU5vti.png",
+				"https://imgur.com/uUU5vti.png",
+				"https://imgur.com/uUU5vti.png",
+				"https://imgur.com/uUU5vti.png",
+				"https://imgur.com/uUU5vti.png",
+				"https://imgur.com/uUU5vti.png",
+				"https://imgur.com/uUU5vti.png"
+			],
+			"descricaoImg": "Essa foto contém cinco pares de brincos de flor de miçanga, nas cores verde, azul, lilás, rosa e branco.",
+			"descricaoDetalhadaMaior":"Brincos artesanais em miçanga com base metálica hipoalergênica (liga leve).\n\nDimensões e peso:\n- Diâmetro aproximado: 3 cm.\n- Peso por par: ~8–12 g (varia conforme modelo).\n\nCompatibilidade e uso:\n- Fecho tipo gancho/argolinha indicado para peles sensíveis.\n- Recomendados para uso diário e ocasiões informais.\n\nCuidados:\n- Evitar contato com água e produtos químicos; guardar em estojo para prevenir emaranhamento.\n\nProdução:\n- Peça feita manualmente; pequenas variações de coloração são naturais."
+		},
+		{
+			"titulo":"Bolsa Terê (infantil)",
+			"valor":149.90,
+			"imagemPrincipal":"https://imgur.com/l1d5IpL.png",
+			"categoria":"Bolsas",
+			"isPromocao": false,
+			"idProduto": 5,
+			"qtdEmEstoque": 10,
+			"qtdComprados": 5,
+			"qtdDeEstrelas": 5,
+			"qtdAvaliacoes": 36,
+			"descricaoDetalhadaMenor":"Bolsa infantil em miçanga com estampa de girassol, leve e divertida.",
+			"imagensAlternativas": [
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png",
+				"https://imgur.com/l1d5IpL.png"
+			],
+			"descricaoImg": "Essa foto contém uma bolsa de miçanga branca com um desenho de um girassol amarelo e preto ao centro.",
+			"descricaoDetalhadaMaior":"Bolsa infantil artesanal em miçanga com estampa de girassol.\n\nDimensões e construção:\n- Medidas aproximadas: 18 x 14 x 4 cm.\n- Alça curta com queda de 18–22 cm; costura reforçada para maior durabilidade.\n- Peso aproximado: 180 g.\n\nSegurança e recomendações:\n- Material não tóxico, adequado para crianças maiores de 3 anos; supervisão recomendada por conter peças pequenas.\n\nForro e fechamento:\n- Forro interno em poliéster; fechamento por botão de pressão.\n\nCuidados e embalagem:\n- Limpar com pano seco; evitar molhar. Recomendada embalagem para presente quando aplicável.\n- Produzida manualmente — pequenas variações de padrão são naturais."
+		}
+	]
+}
